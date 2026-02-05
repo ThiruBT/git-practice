@@ -9,7 +9,6 @@ jobs:
   deploy_to_Lambda:
     name: deploy to staging
     runs-on: ubuntu-latest
-
  steps:
     - uses: actions/checkout@v4
     - name: list folder
